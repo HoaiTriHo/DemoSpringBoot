@@ -23,6 +23,12 @@ public class CustomerController {
     public void getHoainam(){
         System.out.println("How many student in your family");
     }
+    public void getHoainam1(){
+        System.out.println("How many student in your family");
+    }
+    public void getHoainam2(){
+        System.out.println("How many student in your family");
+    }
     @GetMapping("/customer")
     @ResponseBody
     public Customer getAll(Customer customer){
