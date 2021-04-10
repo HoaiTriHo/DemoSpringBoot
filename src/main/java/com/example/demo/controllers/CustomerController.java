@@ -17,6 +17,9 @@ public class CustomerController {
 
     @Autowired
     private CustomerService customerService;
+    public void getHoaitri(){
+        System.out.println("How many student in your family");
+    }
 
     @GetMapping("/customer")
     @ResponseBody
