@@ -29,6 +29,9 @@ public class CustomerController {
     public void getHoaiCris(){
         System.out.println("How many student in your family");
     }
+    public void getHoaiM10(){
+        System.out.println("How many student in your family");
+    }
     @GetMapping("/customer")
     @ResponseBody
     public Customer getAll(Customer customer){
